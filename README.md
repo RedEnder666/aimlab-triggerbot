@@ -1,2 +1,3 @@
 # aimlab-triggerbot
- Pixel triggerbot for aimlab(blue color)
+ 
+Simple aimlab pixel trigger for shooting blue spheres
