@@ -6,7 +6,6 @@ import pyautogui as pg
 mouse = Controller()
 min_color = (10, 140, 165)
 max_color = (100, 255, 255)
-state_left = win32api.GetKeyState(0x01)
 m = mouse.position
 
 def crosscolor():
@@ -21,5 +20,7 @@ while True:
         mouse.release(Button.left)
         print(f"shot target with color {cross}")
         time.sleep(0.01)
-    if win32api.GetKeyState(0x01) != state_left:
+    if win32api.GetKeyState(0x02)<0:
         m = mouse.position
+        print('center is now at', m)
+    time.sleep(0.001)
