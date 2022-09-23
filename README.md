@@ -3,7 +3,7 @@
 Simple aimlab pixel triggerbot for shooting blue spheres
 
 How to use:
-At start of the game, click right button so programm will know where the crosshair is, then just aim
+At start of the game (when the countdown starts), click right mouse button so programm will know where the crosshair is, then just aim
 
 Video(Clickable):
 
